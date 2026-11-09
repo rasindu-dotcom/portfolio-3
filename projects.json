@@ -6,7 +6,7 @@
       "category": "Brochures",
       "type": "Corporate brochure",
       "description": "A corporate brochure presenting BOA Group’s global presence, customer footprint and power-generation solutions.",
-      "image": "/assets/images/portfolio-boa-group-brochure.jpg",
+      "image": "assets/images/portfolio-boa-group-brochure.jpg",
       "featured": true
     },
     {
@@ -15,7 +15,7 @@
       "category": "Brochures",
       "type": "Editorial brochure",
       "description": "A clean editorial brochure concept using product imagery, restrained typography and generous white space.",
-      "image": "/assets/images/portfolio-moringa-brochure.jpg",
+      "image": "assets/images/portfolio-moringa-brochure.jpg",
       "featured": true
     },
     {
@@ -24,7 +24,7 @@
       "category": "Brochures",
       "type": "Marketing brochure",
       "description": "A modern property brochure layout combining interior photography, service information and a clear editorial grid.",
-      "image": "/assets/images/portfolio-interior-brochure.jpg",
+      "image": "assets/images/portfolio-interior-brochure.jpg",
       "featured": true
     },
     {
@@ -33,7 +33,7 @@
       "category": "Business Documents",
       "type": "Corporate information document",
       "description": "A Samsung Galaxy security information layout presenting device security features and business-facing information.",
-      "image": "/assets/images/portfolio-samsung-security-overview.jpg",
+      "image": "assets/images/portfolio-samsung-security-overview.jpg",
       "featured": true
     },
     {
@@ -42,7 +42,7 @@
       "category": "Business Documents",
       "type": "Product information brochure",
       "description": "A multi-panel information design explaining Galaxy device security, certification and enterprise benefits.",
-      "image": "/assets/images/portfolio-samsung-security-brochure.jpg",
+      "image": "assets/images/portfolio-samsung-security-brochure.jpg",
       "featured": false
     },
     {
@@ -51,7 +51,7 @@
       "category": "Business Documents",
       "type": "Product information sheet",
       "description": "A product information layout introducing Galaxy AI features and business productivity applications.",
-      "image": "/assets/images/portfolio-samsung-galaxy-ai.jpg",
+      "image": "assets/images/portfolio-samsung-galaxy-ai.jpg",
       "featured": true
     },
     {
@@ -60,7 +60,7 @@
       "category": "One-Pagers",
       "type": "Customer case study",
       "description": "A customer case study presenting the challenge, solution and measurable results in a concise editorial layout.",
-      "image": "/assets/images/portfolio-agurotech-case-study.jpg",
+      "image": "assets/images/portfolio-agurotech-case-study.jpg",
       "featured": true
     },
     {
@@ -69,7 +69,7 @@
       "category": "One-Pagers",
       "type": "Marketing one-pager",
       "description": "A multi-page marketing presentation introducing a smart chargeback-resolution solution and its business benefits.",
-      "image": "/assets/images/portfolio-goat-disputifier.jpg",
+      "image": "assets/images/portfolio-goat-disputifier.jpg",
       "featured": true
     },
     {
@@ -78,7 +78,7 @@
       "category": "One-Pagers",
       "type": "Case study",
       "description": "A concise case-study layout organizing the challenge, solution and results into a clear business narrative.",
-      "image": "/assets/images/portfolio-blue-oak-case-study.jpg",
+      "image": "assets/images/portfolio-blue-oak-case-study.jpg",
       "featured": false
     },
     {
@@ -87,7 +87,7 @@
       "category": "One-Pagers",
       "type": "Sales one-pager",
       "description": "A compact overview presenting a fintech business, proof points, case studies and service options.",
-      "image": "/assets/images/portfolio-virio-overview.jpg",
+      "image": "assets/images/portfolio-virio-overview.jpg",
       "featured": false
     },
     {
@@ -96,7 +96,7 @@
       "category": "One-Pagers",
       "type": "Corporate one-pager",
       "description": "A corporate overview sheet presenting positioning, capabilities, target clients and key information.",
-      "image": "/assets/images/portfolio-triada-networks.jpg",
+      "image": "assets/images/portfolio-triada-networks.jpg",
       "featured": true
     },
     {
@@ -105,7 +105,7 @@
       "category": "Print & Digital",
       "type": "Direct-mail postcard",
       "description": "A two-sided promotional postcard combining fleet-service messaging, benefits and a direct response call to action.",
-      "image": "/assets/images/portfolio-best-one-postcard.jpg",
+      "image": "assets/images/portfolio-best-one-postcard.jpg",
       "featured": false
     },
     {
@@ -114,7 +114,7 @@
       "category": "Print & Digital",
       "type": "Promotional postcard",
       "description": "A service-focused postcard using lifestyle imagery, concise benefit messaging and a clear QR-code prompt.",
-      "image": "/assets/images/portfolio-online-pflegebox-postcard.jpg",
+      "image": "assets/images/portfolio-online-pflegebox-postcard.jpg",
       "featured": false
     }
   ]
