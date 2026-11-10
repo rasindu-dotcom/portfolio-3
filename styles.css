@@ -663,3 +663,80 @@ body{background:#111111;color:#F2F2F2}
 .hero-image-frame.hero-art img{display:block!important;position:static!important;width:100%!important;height:auto!important;max-width:100%!important;max-height:none!important;left:auto!important;right:auto!important;top:auto!important;bottom:auto!important;transform:none!important;object-fit:contain!important;object-position:center!important;border:0!important;border-radius:0!important;background:transparent!important;box-shadow:none!important;filter:none!important;mix-blend-mode:normal!important;clip-path:none!important;mask:none!important}
 .hero-visual>.hero-orbit,.hero-visual>.hero-stamp,.hero-visual>.hero-note{display:none!important}
 @media(max-width:800px){.hero-visual{padding:16px 0 24px!important}.hero-image-frame.hero-art{width:min(560px,100%)!important}}
+
+
+/* WhatsApp button animation */
+.hero-whatsapp-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 11px;
+  padding: 10px 15px;
+  border: 1px solid rgba(37,211,102,.3);
+  border-radius: 50px;
+  background: rgba(37,211,102,.06);
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+  transition: all .3s ease;
+  animation: whatsapp-entry .8s ease both;
+}
+
+.hero-whatsapp-icon {
+  position: relative;
+  width: 29px;
+  height: 29px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: rgba(37,211,102,.14);
+}
+
+.hero-whatsapp-icon::before {
+  content: "";
+  position: absolute;
+  inset: -4px;
+  border: 1px solid #25D366;
+  border-radius: 50%;
+  animation: whatsapp-pulse 2s ease-out infinite;
+}
+
+.hero-whatsapp-icon svg {
+  width: 17px;
+  height: 17px;
+  fill: #25D366;
+  position: relative;
+}
+
+.hero-whatsapp-link b {
+  color: #25D366;
+  transition: transform .3s ease;
+}
+
+.hero-whatsapp-link:hover {
+  transform: translateY(-3px);
+  border-color: #25D366;
+  box-shadow: 0 7px 24px rgba(37,211,102,.16);
+}
+
+.hero-whatsapp-link:hover b {
+  transform: translate(3px,-2px);
+}
+
+@keyframes whatsapp-pulse {
+  0% { transform: scale(.85); opacity: .8; }
+  100% { transform: scale(1.6); opacity: 0; }
+}
+
+@keyframes whatsapp-entry {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-whatsapp-link,
+  .hero-whatsapp-icon::before {
+    animation: none;
+    transition: none;
+  }
+}
+
